@@ -27,7 +27,7 @@
 		<xs:complexContent>
 			<xs:extension base="cyboxCommon:ObjectPropertiesType">
 				<xs:sequence>
-					<xs:element name="Architecture" type="cyboxCommon:StringObjectPropertyType" minOccurs="0">
+					<xs:element name="Architecture" type="cyboxCommon:ControlledVocabularyStringType" minOccurs="0">
 						<xs:annotation>
 							<xs:documentation>The Architecture field specifies the architecture for which the package was built. Examples include "i386", "armhf", "ppc", "sparc", "x86_64", "mips", "noarch", etc. </xs:documentation>
 						</xs:annotation>
